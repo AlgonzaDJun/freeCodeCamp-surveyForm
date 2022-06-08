@@ -1,0 +1,65 @@
+:root {
+    background-image: url(https://wallpapercave.com/dwp1x/wp2672818.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+}
+
+main {  
+    color: #DAEAF1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+#title {
+    padding-top: 20px;
+    font-family: cursive;
+}
+
+#description {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#survey-form {
+    margin: auto;
+    padding: 25px;
+    width: 45vw;
+    justify-content: center;
+    background-color: #c6dce471;
+    border-radius: 15px;
+    font-size: large;
+    font-family: cursive;
+}
+
+
+#name, #email, #number, #dropdown {
+    width: 100%;
+    height: 30px;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 13pt;
+}
+
+input::placeholder {
+    text-indent: 3%;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 10px;
+    font-family: cursive;
+}
+
+#submit {
+    width: 100%;
+    height: 5vh;
+    border-radius: 15px;
+    border-style: none;
+    background-color: #9EB23B;
+    font-family: cursive;
+}

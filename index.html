@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <main>
+    <header>
+      <h1 id="title">Website Form</h1>
+      <p id="description">Silakan Masukkan Data Diri Anda</p>
+    </header>
+    <form action="" id="survey-form">
+      <!-- buat placeholder juga -->
+      <label for="name" id="name-label">Nama</label> <br />
+      <input type="text" id="name" placeholder="masukkan nama" required />
+      <br />
+      <label for="email" id="email-label">Email</label> <br />
+      <input type="email" id="email" placeholder="masukkan email" required />
+      <br />
+      <!-- if enter wrong email format then error -->
+      <label for="number" id="number-label">Masukkan umur anda</label> <br />
+      <input type="number" id="number" placeholder="umur" min="16" max="30" />
+      <br />
+
+      <!-- select -->
+      <label for="dropdown">Pilih Hobi anda</label> <br />
+      <select name="dropdown" id="dropdown">
+        <option value="terbang">Terbang</option>
+        <option value="salto">Salto</option>
+        <option value="tidur">Tidur</option>
+      </select>
+
+      <!-- radio button -->
+      <p>Apa Pendidikan Terakhir Anda</p>
+      <input type="radio" name="last-edu" id="SMP" value="SMP" />
+      <label for="SMP">SMP</label> <br />
+      <input type="radio" name="last-edu" id="SMA" value="SMA" />
+      <label for="SMA">SMA</label> <br />
+      <input type="radio" name="last-edu" id="S1" value="S1" />
+      <label for="S1">S1</label> <br />
+
+      <!-- checkbox -->
+      <p>Apa saja barang elektronik anda</p>
+      <input
+        type="checkbox"
+        name="electronic1"
+        id="electronic1"
+        value="smartphone"
+      />
+      <label for="electronic1">Smartphone</label> <br />
+      <input
+        type="checkbox"
+        name="electronic2"
+        id="electronic2"
+        value="laptop"
+      />
+      <label for="electronic2">Laptop</label> <br />
+      <input
+        type="checkbox"
+        name="electronic3"
+        id="electronic3"
+        value="Airpod"
+      />
+      <label for="electronic3">Airpod</label> <br />
+      <br />
+
+      <!-- textarea -->
+      <textarea
+        name="comment"
+        cols="30"
+        rows="10"
+        placeholder="Masukkan kritik dan saran"
+      ></textarea>
+      <br />
+
+      <!-- submit -->
+      <input type="submit" value="Submit" id="submit" />
+    </form>
+  </main>
+</html>
